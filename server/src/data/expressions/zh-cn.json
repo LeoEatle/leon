@@ -1,0 +1,48 @@
+{
+	"answers": {
+		"success": {
+
+		},
+		"errors": {
+			"not_found": "对不起，好像我没找到这个东西",
+			"nlu": "有个错误从我的神经网络冒出来了，这个错误是： \"%error%\""
+		},
+    "synchronizer": {
+      "syncing_direct": "我现在会从网络上同步数据到你的设备中，不要着急，一切就绪时我会通知你",
+      "synced_direct": "最新数据已同步到你的设备中",
+      "syncing_google_drive": "我现在会同步最新的数据到 Google Drive 上，不要着急，一切就绪时我会通知你",
+      "synced_google_drive": "最新数据已同步到 Google Drive 上"
+    },
+		"random_errors": [
+			"对不起，我的系统出现了一个问题",
+			"对不起，我的系统无法正常工作",
+			"对不起，我需要得到你的修复",
+			"对不起，我不能那么做，因为我坏掉了"
+		],
+		"random_package_module_errors": [
+			"Sorry, it seems I have a problem with the %module_name% module of my %package_name% package",
+			"Sorry, I have an issue with the %module_name% module of my %package_name% package",
+			"Sorry, I've got an error with the %module_name% module of my %package_name% package",
+			"Sorry, the %module_name% module of my %package_name% package is broken"
+		],
+		"random_unknown_queries": [
+			"Sorry, I still don't know this, but you can help me to understand by creating a pull request",
+			"Sorry, you should teach me this request. You can teach me by creating a pull request",
+			"Sorry, I cannot answer that. Let me answer you in the future by creating a pull request",
+			"Sorry, you have to educate me more. You can help me with that by contributing to my code",
+			"Sorry, I don't understand your query",
+      "Sorry, I'm still very young, I didn't got your point"
+		],
+		"random_not_sure": [
+			"Sorry, you may repeat",
+			"Sorry, I'm not sure to understand",
+			"Sorry, I'm not sure for what you asked, please repeat",
+			"Sorry, please repeat again",
+			"Sorry, I didn't correctly clean my ears today! Oh wait, I'm your personal assistant then repeat please"
+		],
+    "random_not_able": [
+      "Sorry, I'm not able to answer. I understand what you said, but please repeat in another way",
+      "Sorry, I have a blackout, I cannot answer that. I understand what you said, but try to repeat in another way"
+    ]
+	}
+}

@@ -32,8 +32,9 @@ export default () => new Promise((resolve, reject) => {
   try {
     if (type === 'expressions') {
       let classifier = new LogisticRegressionClassifier()
-
-      if (lang !== 'en') {
+      if (lang === 'zh-cn') {
+        // 这里可能可以用结巴分词去做？
+      } else if (lang !== 'en') {
         // eslint-disable-next-line global-require, import/no-dynamic-require
         const PorterStemmer = require(`../node_modules/natural/lib/natural/stemmers/porter_stemmer_${lang}`)
         classifier = new LogisticRegressionClassifier(PorterStemmer)
